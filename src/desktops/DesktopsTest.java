@@ -137,8 +137,8 @@ public class DesktopsTest extends Utility {
         Assert.assertEquals("£74.73",getTextFromElement(By.xpath("(//td[contains(text(),'£74.73')])[4]")));
     }
 
-//    @After
-//    public void tearDown() {                //Close browser
-//        closeBrowser();
-//    }
+      @After
+      public void tearDown() {                //Close browser
+          closeBrowser();
+      }
 }
