@@ -50,7 +50,7 @@ public class LaptopsAndNotebooksTest extends Utility {
 
     @Before
     public void setUp() {                   //Open browser
-        this.openBrowser(this.baseUrl);
+        openBrowser(baseUrl);
     }
 
 
@@ -90,7 +90,7 @@ public class LaptopsAndNotebooksTest extends Utility {
             afterFilterProductPriceList.add(afterFilterPriceValue);
         }
         //Verify the Product will arrange in Descending order.
-        Assert.assertEquals("Products are not sorted in descending order", afterFilterProductPriceList, beforeFilterProductPriceList);
+        Assert.assertEquals("Products are not sorted in descending order by price", afterFilterProductPriceList, beforeFilterProductPriceList);
     }
 
     @Test
