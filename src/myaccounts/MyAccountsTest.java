@@ -64,7 +64,7 @@ public class MyAccountsTest extends Utility {
 
     @Before
     public void setUp() {                   //Open browser
-        this.openBrowser(this.baseUrl);
+        openBrowser(baseUrl);
     }
 
     public void selectMyAccountOptions(String option) {
