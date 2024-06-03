@@ -75,8 +75,8 @@ public class TopMenuTest extends Utility {
         //Verify the text ‘Components’
         Assert.assertEquals("Components", getTextFromElement(By.xpath("//h2[text()='Components']")));
     }
-//    @After
-//    public void tearDown() {                //Close browser
-//        closeBrowser();
-//    }
+      @After
+      public void tearDown() {                //Close browser
+          closeBrowser();
+      }
 }
